@@ -8,8 +8,8 @@ import { Empleado } from './Ejercicios/Ejercicio5.2.ts'
 
 //ejercicio 1 
 let c = new CabeceraPagina()
-c.Interlineado("Izquierda")
-c.Obtener("Hola","green", "Algerian") //el color lo recibe como lo recibiria un style.css :)
+c.Interlineado("Derecha")
+c.Obtener("Hola","red", "Algerian") //el color lo recibe como lo recibiria un style.css :)
 c.Imprimir()
 
 //Ejercicio 2
