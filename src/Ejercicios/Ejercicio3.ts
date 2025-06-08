@@ -1,6 +1,6 @@
 export class Cancion{
-    titulo:string
-    genero:string
+    protected titulo:string
+    protected genero:string
     private autor:string
 
     getAutor(){

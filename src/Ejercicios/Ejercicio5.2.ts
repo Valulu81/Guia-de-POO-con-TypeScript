@@ -1,7 +1,7 @@
 import { Persona } from "./Ejercicio5.1"
 
 export class Empleado extends Persona{
-    sueldo:number
+    private sueldo:number
     MostrarDatos(): string {
         return `Nombre Completo : ${this.nombre} ${this.apellido} \nDireccion: ${this.direccion}\nTelefono: ${this.telefono} \nEdad: ${this.edad}`
     }

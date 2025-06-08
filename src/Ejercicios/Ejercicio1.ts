@@ -1,10 +1,10 @@
 type Inter = "Izquierda" | "Centrado" | "Derecha"
 type fuentes = "Times New Roman"| "Algerian" | "Baskerville Old Face" | ""
 export class CabeceraPagina{
-    titulo:string
-    fuente:fuentes
-    color:string
-    interlineado:string
+    protected titulo:string
+    protected fuente:fuentes
+    protected color:string
+    protected interlineado:string
 
     Obtener(title:string, colour:string, font:fuentes){
         this.titulo=title

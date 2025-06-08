@@ -1,6 +1,6 @@
 export class Calculadora {
-    num1: number
-    num2: number
+    public num1: number
+    public num2: number
 
     Sumar(){
         let resultado= Math.round(this.num1+this.num2)

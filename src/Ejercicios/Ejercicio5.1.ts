@@ -1,9 +1,9 @@
 export abstract class Persona{
-    nombre:string
-    apellido:string
-    direccion:string
-    telefono:string
-    edad:number
+    protected nombre:string
+    protected apellido:string
+    protected direccion:string
+    protected telefono:string
+    protected edad:number
 
     Mayoria(){
         if (this.edad>17){
